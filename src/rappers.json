@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "A$AP Rocky",
+    "image": "https://acclaimmag.com/wp-content/uploads/2018/05/asap-rocky-underated-feature-image.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Logic",
+    "image": "https://www.rollingstone.com/wp-content/uploads/2019/03/logic-album-review.jpg"
+  },
+  {
+    "id": 3,
+    "name": "J Cole",
+    "image": "https://ronetheboxhouston.files.wordpress.com/2017/02/14855555848339.jpg?w=1024&quality=80&strip=all&h=683"
+  },
+  {
+    "id": 4,
+    "name": "Young Thug",
+    "image": "https://studybreaks.com/wp-content/uploads/2018/07/3fdb3be21c37897d5aa56444403e608a.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "21 Savage",
+    "image": "https://www.billboard.com/files/media/21-savage-press-photo-2018-u-billboard-1548.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kanye West",
+    "image": "https://townsquare.media/site/812/files/2016/09/Kanye-West-W-Magazine.jpg?w=980&q=75"
+  },
+  {
+    "id": 7,
+    "name": "Lil Uzi Vert",
+    "image": "https://townsquare.media/site/812/files/2017/04/lil-uzi-vert-coachella1.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Tyler, the Creator",
+    "image": "https://www.centraltrack.com/wp-content/uploads/2018/02/D4A4045.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Eminem",
+    "image": "https://nysmusic.com/site/wp-content/uploads/2018/06/Eminem-3.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Childish Gambino",
+    "image": "https://im-dev-proxy.imgix.net/https%3A%2F%2Fasset-1.theoutline.com%2Fv1%2Fduotone%2Fpreview%3Fend%3DFFFFFF%26start%3D000000%26url%3Dhttps%253A%252F%252Foutline-prod.imgix.net%252F20170608-aSZpLQ8Tk5LfziJkFl1i%253Fs%253De10613b17470af9d308e77b820be41d8?auto=format&q=60&w=1280&s=d8e88e87bbffbddc6e2d44c686372baa"
+  },
+  {
+    "id": 11,
+    "name": "Kid Cudi",
+    "image": "http://www.rapfavorites.com/wp-content/uploads/2016/10/Kid-Cudi-12Mar2016-6362.jpg"
+  },
+  {
+    "id": 12,
+    "name": "TraviS Scott",
+    "image": "https://9rm52pnjcvdzcxx3-zippykid.netdna-ssl.com//wp-content/gallery/travis-scott-nye-at-observatory/travisscott-3.jpg"
+  }
+]

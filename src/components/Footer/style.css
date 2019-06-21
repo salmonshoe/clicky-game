@@ -1,0 +1,17 @@
+.footer {
+    background: #6956af;
+    height: 100px;
+    position: relative;
+    color: #fff;
+    overflow: auto;
+    display: block;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bottom {
+    /* position absolute will hide it, position relative doesn't stick to floor of webpage */
+    background: #5138a1;
+    padding: 8px;
+    font-weight: 600;
+}
