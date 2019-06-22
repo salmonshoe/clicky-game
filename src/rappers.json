@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "A$AP Rocky",
-    "image": "https://acclaimmag.com/wp-content/uploads/2018/05/asap-rocky-underated-feature-image.jpg"
+    "image": "https://www.thissongslaps.com/wp-content/uploads/2015/05/asap-rocky-wallpaper-7.jpeg"
   },
   {
     "id": 2,
     "name": "Logic",
-    "image": "https://www.rollingstone.com/wp-content/uploads/2019/03/logic-album-review.jpg"
+    "image": "http://static.wixstatic.com/media/275963_1f45fc3c585b45eabaa1dc761e5e2e55~mv2.jpg"
   },
   {
     "id": 3,
@@ -16,18 +16,18 @@
   },
   {
     "id": 4,
-    "name": "Young Thug",
-    "image": "https://studybreaks.com/wp-content/uploads/2018/07/3fdb3be21c37897d5aa56444403e608a.jpeg"
+    "name": "Joey Badass",
+    "image": "https://66.media.tumblr.com/12df1218b8a906e47cf07b38f929c496/tumblr_o6yyez61N81r7o2e7o1_1280.jpg"
   },
   {
     "id": 5,
-    "name": "21 Savage",
-    "image": "https://www.billboard.com/files/media/21-savage-press-photo-2018-u-billboard-1548.jpg"
+    "name": "Chance the Rapper",
+    "image": "https://www.jacksonspalding.com/wp-content/uploads/2016/06/Chance-The-Rapper-2-1.jpg"
   },
   {
     "id": 6,
     "name": "Kanye West",
-    "image": "https://townsquare.media/site/812/files/2016/09/Kanye-West-W-Magazine.jpg?w=980&q=75"
+    "image": "https://media.vanityfair.com/photos/5bb24f3fb2ab083a47a5c074/master/pass/kanye-west-twitter.jpg"
   },
   {
     "id": 7,
@@ -62,11 +62,11 @@
   {
     "id": 13,
     "name": "Kendrick Lamar",
-    "image": ""
+    "image": "https://images.complex.com/complex/images/c_fill,g_center,w_1200/fl_lossy,pg_1/wevnmymfo74zugefgmut/kendrick-fyf-black-and-white"
   },
   {
     "id": 14,
-    "name": "Big Sean",
-    "image": ""
+    "name": "Mac Miller",
+    "image": "https://static.vibe.com/files/2018/07/Mac-Miller-Growth-1533062432-compressed.jpg"
   }
 ]

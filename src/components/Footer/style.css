@@ -3,7 +3,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: #6956af;
+    background: #4c4c4c;
     height: 100px;
     color: #fff;
     text-align: center;
@@ -11,7 +11,7 @@
 }
 
 .bottom {
-    background: #5138a1;
+    background:#4c4c4c;
     padding: 8px;
     font-weight: 600;
 }

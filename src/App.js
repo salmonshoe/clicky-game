@@ -17,25 +17,32 @@ class App extends Component {
     }
   };
 
-// ANSWER THESE!
-  //1. Difference between rappers, filteredRappers, setRappers and rappersIdsNotClicked
-  //2. oldScores vs. scores
-  //3. why we should use [...rappers] instead of making a new Object to mimic. Objects didn't work this time around
-
+  shuffleArray = (array) => {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+    // While there remain elements to shuffle;
+    while (0 !== currentIndex) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
+  }
 
   countRapper = id => {
     // Filter this.state.rappers for rappers with an id not equal to the id being counted
     const rappers = this.state.filteredRappers.filter(rapper => rapper.id !== id);
-    // Set this.state.rappers equal to the new rappers array
-
     const oldScores = this.state.scores;
     const rapperIdsNotClicked = this.state.filteredRappers.map((rapper) => rapper.id);
     let setRappers = [...rappers]
 
     if(rapperIdsNotClicked.includes(id)) {
       oldScores.userScore++;
-      oldScores.totalScore++;
       setRappers = [...rappers]
+      //console.log(setRappers);
     }
     else {
       for(let key in oldScores) {
@@ -43,10 +50,11 @@ class App extends Component {
       }
       setRappers = [...this.state.rappers]
     }
-    console.log(rappers); //to see the changes upon each click
 
-    this.setState({ filteredRappers: setRappers, scores: oldScores });
-
+    setRappers = this.shuffleArray([...setRappers]);
+    console.log(setRappers);
+    
+    this.setState({ filteredRappers: setRappers, scores: oldScores});
   };
 
   // Map over this.state.rappers and render a rapperCard component for each rapper object
@@ -55,14 +63,15 @@ class App extends Component {
       <Wrapper>
         <Navbar scores={this.state.scores} />
         <Header />
-        {this.state.rappers.map(rapper => (
+        {this.shuffleArray(this.state.rappers.map(rapper => (
           <RapperCard
             countRapper={this.countRapper}
             id={rapper.id}
             key={rapper.id}
+            name={rapper.name}
             image={rapper.image}
           />
-        ))}
+        )))}
         <Footer />
       </Wrapper>
     );
