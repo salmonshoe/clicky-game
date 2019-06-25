@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.f0c4d598.chunk.css",
+    "main.js": "/clicky-game/static/js/main.7aba3082.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.7aba3082.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
+    "static/js/2.647c2da8.chunk.js": "/clicky-game/static/js/2.647c2da8.chunk.js",
+    "static/js/2.647c2da8.chunk.js.map": "/clicky-game/static/js/2.647c2da8.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.9a5e550f28434c69254051efb679656c.js": "/clicky-game/precache-manifest.9a5e550f28434c69254051efb679656c.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.f0c4d598.chunk.css.map": "/clicky-game/static/css/main.f0c4d598.chunk.css.map",
+    "static/media/style.css": "/clicky-game/static/media/concert.555490b9.jpg"
+  }
+}
